@@ -1,0 +1,936 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8/"
+     xml:base="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#hasAgeRating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#hasAgeRating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#AgeRating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#hasGameMode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#hasGameMode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#hasGenre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#hasSubGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#hasSubGenre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#gameId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#gameId">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#minCpu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#minCpu">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#minGpu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#minGpu">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#minRamGb -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#minRamGb">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#AgeRating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#AgeRating"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action-RPG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action-RPG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Adventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#AgeRating"/>
+        <rdfs:label>10+</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#AgeRating"/>
+        <rdfs:label>16+</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#AgeRating"/>
+        <rdfs:label>18+</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#BaldursGate3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#BaldursGate3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age16"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#co-op"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RPG"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#CRPG"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel i5-4690 / AMD FX 8350</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA RTX 2060 / AMD RX 5700</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Baldur&apos;s Gate 3</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Basketball -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Basketball">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Battle_Royale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Battle_Royale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#CRPG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#CRPG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Counter-Strike_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Counter-Strike_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age16"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#competitive"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#multiplayer"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#pvp"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Shooter"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#FPS"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Tactical_Shooter"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel i5-7600K / AMD Ryzen 5 1600</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA GTX 1050 / AMD R7 260X</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Counter-Strike 2</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Dark_Souls_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Dark_Souls_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age16"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#co-op"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#pvp"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RPG"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Souls-like"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel Core i3-2100 / AMD® FX-6300</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Dark Souls 3</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Dating_Sim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Dating_Sim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Doki_Doki_Literature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Doki_Doki_Literature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Visual_Novel"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#horror"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>1.8 GHz Dual-Core CPU</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minGpu>Integrated Graphics</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:title>Doki Doki Literature</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Dota_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Dota_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age16"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#competitive"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#pvp"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#MOBA"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#MOBA"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RTS"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Dual Core 2.8 GHz</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA GTX 460 / AMD R5 770</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Dota 2</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Elden_Ring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Elden_Ring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age16"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#co-op"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#pvp"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Souls-like"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel i7-10700 / AMD Ryzen 5 3600</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA RTX 2080 / AMD RX 5700 XT</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Elden Ring</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#FPS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#FPS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Football -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Football">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Grand_Theft_Auto_V -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Grand_Theft_Auto_V">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#co-op"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#pvp"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Sandbox"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#TPS"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel® Core™ i7-4770 | AMD FX™-9590</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA GeForce® GTX 1630 (4GB VRAM) | AMD Radeon™ RX 6400 (4GB VRAM)</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Grand Theft Auto V</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Half-Life_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Half-Life_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Adventure"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Shooter"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#FPS"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-8:gameId>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel Pentium 4 / AMD Athlon 64</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA GeForce 7600 / AMD Radeon 9700</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:title>Half-Life 2</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Hollow_Knight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Hollow_Knight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age10"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Indie"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Metroidvania"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Platformer"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel Core 2 Duo</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA GTX 750 / AMD R7 240</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Hollow Knight</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Horror -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Horror">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Indie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Indie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Lies_of_P -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Lies_of_P">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age16"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RPG"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Souls-like"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>AMD Ryzen 3 1200／Intel Core i3-6300</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>AMD Radeon RX 560 4GB / NVIDIA GeForce GTX 960 4GB</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Lies of P</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#MOBA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#MOBA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Metroidvania -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Metroidvania">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Paladins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Paladins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age10"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#pvp"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#MOBA"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#FPS"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Core 2 Duo 2.4 GHz or Athlon X2 2.7 GHz</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>Nvidia GeForce 8800 GT</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Paladins</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Physics_Puzzle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Physics_Puzzle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Platformer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Platformer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Puzzle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Puzzle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RPG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RPG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RTS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RTS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Racing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Racing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Racing_Sim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Racing_Sim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Red_Dead_Redemption_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Red_Dead_Redemption_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#multiplayer"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Adventure"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel Core i7</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA GTX 1050 / AMD RX 470</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Red Dead Redemption 2</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Resident_Evil_7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Resident_Evil_7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Adventure"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Horror"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Survival"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel i7-7700K / AMD Ryzen 5 2600</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA GTX 1060 / AMD RX 480</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Resident Evil 7</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Roguelike -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Roguelike">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SILENT_HILL_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SILENT_HILL_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Adventure"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Horror"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Survival"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel Core i7-6700K | AMD Ryzen 5 3600</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA® GeForce® GTX 1070 Ti or AMD Radeon™ RX 5700 or Intel® Arc™ A750</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>SILENT HILL 2</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Sandbox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Sandbox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Shooter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Shooter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Souls-like -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Souls-like">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Sport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Sport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#StarCraft_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#StarCraft_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age16"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#multiplayer"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Strategy"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RTS"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#competitive"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel i7 / AMD FX 8350</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA GTX 1050 / AMD R7 260X</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>StarCraft II</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Strategy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Strategy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Street_Racing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Street_Racing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Survival -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Survival">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#TPS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#TPS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Tactical_RPG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Tactical_RPG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Tactical_Shooter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Tactical_Shooter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#The_Witcher_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#The_Witcher_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Adventure"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RPG"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action-RPG"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel i7 / AMD FX 8350</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA GTX 770 / AMD Radeon R9 290</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>The Witcher 3</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Tiny_Bunny -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Tiny_Bunny">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Visual_Novel"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#horror"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>1.2 GHz or faster processor</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>512 MB display memory</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Tiny Bunny</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Turn-Based_Strategy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Turn-Based_Strategy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Visual_Novel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Visual_Novel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#campaign -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#campaign">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#co-op -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#co-op">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#competitive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#competitive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#horror -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#horror">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#local_co-op -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#local_co-op">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#multiplayer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#multiplayer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#online_co-op -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#online_co-op">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#pvp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#pvp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#sandbox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#sandbox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#GameMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#4X_Strategy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#4X_Strategy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Divinity:_Original_Sin_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Divinity:_Original_Sin_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#co-op"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#pvp"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RPG"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#CRPG"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Turn-Based_Strategy"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel Core i5 or equivalent</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA® GeForce® GTX 550 or ATI™ Radeon™ HD 6XXX or higher</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Divinity: Original Sin 2</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Hack&amp;Slash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Hack&amp;Slash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#SubGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Hollow_Knight:_Silksong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Hollow_Knight:_Silksong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age10"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Indie"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Metroidvania"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Platformer"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel Core i3-3240, AMD FX-4300</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB)</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Hollow Knight: Silksong</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Kingdom_Come:_Deliverance_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Kingdom_Come:_Deliverance_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Game"/>
+        <untitled-ontology-8:hasAgeRating rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Age18"/>
+        <untitled-ontology-8:hasGameMode rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#single"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Adventure"/>
+        <untitled-ontology-8:hasGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#RPG"/>
+        <untitled-ontology-8:hasSubGenre rdf:resource="http://www.semanticweb.org/vasya/ontologies/2026/0/untitled-ontology-8#Action-RPG"/>
+        <untitled-ontology-8:gameId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</untitled-ontology-8:gameId>
+        <untitled-ontology-8:minCpu>Intel Core i5-8400, AMD Ryzen 5 2600</untitled-ontology-8:minCpu>
+        <untitled-ontology-8:minGpu>NVIDIA GeForce GTX 1060 (6GB), AMD Radeon RX 580</untitled-ontology-8:minGpu>
+        <untitled-ontology-8:minRamGb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</untitled-ontology-8:minRamGb>
+        <untitled-ontology-8:title>Kingdom Come: Deliverance II</untitled-ontology-8:title>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
